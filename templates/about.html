@@ -1,0 +1,45 @@
+
+{% extends 'base.html' %}
+{% block body %}
+  <body class="text-center">
+
+    <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+      
+
+      <main role="main" class="inner cover">
+        <h1 class="cover-heading">About This Todo App.</h1>
+        <h3>Introduction</h3>
+        <p class="lead"> 
+            Todo-list-app is an application that allows to manage a list of tasks to do. 
+            It performs adding, updating, deleting and toggling state of each task. 
+            It has minimalistic design and basic functionality. You can see it working here.</p>
+        <p class="lead">
+            <p class="lead"> 
+                App todo-list-app performs very efficient comparing to competitor. There is a space 
+                for further developments with regards
+                 of keeping app small and quick. It would be optimal to use dedicated CSS and continuing 
+                 using vanilla JavaScript.
+                To-do-app can be developed as a sole application as well as a very efficient module to be combined in a 
+                larger project. One of the key challenges is to chose appropriate storage solution, 
+                that will allow to maintain its biggest advantages:</p>
+            <p class="lead">
+          <a href="https://www.codewithharry.com/" class="btn btn-lg btn-secondary">Learn more</a>
+        </p>
+      </main>
+
+      <footer class="mastfoot mt-auto">
+        <div class="inner">
+          <p>Todo App By <a href="https://www.codewithharry.com/">Harry</a>.</p>
+        </div>
+      </footer>
+    </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../../assets/js/vendor/popper.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    {% endblock body %}
